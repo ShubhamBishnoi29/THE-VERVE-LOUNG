@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.section{
+    padding: 100px 0;
+    position: relative;
+}
+
+.header{
+    padding: 25px 0;
+}
+
+.header-row{
+    display: flex;   
+    justify-content: space-between;
+}
+
+.logo{
+    width: 156px;
+    height: 104px;
+}
+
+.search{
+    width: 18px;
+    height: 18px;
+}
+
+.menu{
+    width: 20px;
+    height: 14px;
+}
+
+.header-row-col2{
+    display: flex;
+    align-items: center;
+}

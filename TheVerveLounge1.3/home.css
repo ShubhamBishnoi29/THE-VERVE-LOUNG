@@ -1,0 +1,274 @@
+/* ---------------------------------------------------------GLOBAL-------------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.section{
+    padding: 100px 30px;
+}
+.primary-button{
+    width: 132px;
+    height: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: 0;
+    border-bottom: 2px solid black;
+}
+
+.h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+.p{
+    font-weight: 500px;
+    font-size: 16px;
+}
+.Montserrat-font{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+.Playfair-Display-font{
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+}
+.footer-secondary-heading{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+/* -------------------------------------------------------NAV-BAR--------------------------------------------------------- */
+.logo{
+    max-width: 160px;
+    width: 100%;
+}
+.search{
+    max-width: 18px;
+    width: 100%;
+    margin-right: 27px;
+}
+.menu{
+    max-width: 20px;
+    width: 100%;
+}
+
+/* ------------------------------------------------------BANNER----------------------------------------------------------- */
+.banner{
+    padding-top: 100px;
+}
+.banner-right-content{
+    position: relative;
+}
+.banner-sticky-stikker{
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    left: -127px;
+}
+.sticky-sticker{
+    max-width: 300px;
+    width: 100%;
+}
+.banner-h1{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 65px;
+}
+.banner-p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+.big-right-banner-image{
+    max-width: 585px;
+    width: 100%;
+}
+
+/* --------------------------------------------------------SERVICES---------------------------------------------------------- */
+.services-heading-vertical-image{
+    width: 4px;
+    height: 50px;
+}
+.section-paragraph-services{
+    color:#6D6D6D;
+    line-height: 28px;
+}
+.services-image{
+    max-width: 256px;
+    width: 100%;
+}
+.services-name{
+    font-size: 18px;
+}
+.services{
+    position: relative;
+}
+.leaf img{
+    position: absolute;
+    max-width: 200px;
+    width: 100%;
+}
+.left-leaf img{
+    top: -27px;
+    left: -69px;
+}
+.right-leaf img{
+    bottom: 34px;
+    right: -58px;
+}
+
+/* ------------------------------------------------------ABOUT US--------------------------------------------------------- */
+.about-us{
+    background: url(/images/about_us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutus-left-heading{
+    font-size: 40px;
+    line-height: 52px;
+    margin-left: 40px;
+
+}
+
+.aboutus-left-paragraph{
+    font-size: 22px;
+    line-height: 34px;
+    margin-left: 40px;
+}
+.aboutus-right-content{
+    padding-top: 22px;
+}
+
+.aboutus-right-paragrabh{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.aboutus-button{
+    margin-left: 40px;
+}
+
+/* ----------------------------------------------------------GIFT CARD--------------------------------------------------------- */
+
+.giftcard-left-content-heading{
+    font-weight: 400;
+    line-height: 52px;
+    font-size: 40px;
+}
+.giftcard-left-content-paragraph{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6D6D6D;
+}
+.giftcard-right-content-sticker{
+    max-width: 500px;
+    width: 100%;
+}
+/* -----------------------------------------------------------TESTIMONIALS------------------------------------------------------- */
+.testimonials{
+    position: relative;
+}
+.swiper-container{
+    min-height: 200px;
+    height: 100%;
+    position: absolute;
+}
+.testimonial-vertical-sticker{
+    height: 50px;
+    width: 5px;
+}
+.swiper-slide {
+    /* background-color: #eff5f5	; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 36px;
+}
+.testimonials-customer-review{
+    font-size: 18px;
+    line-height: 36px;
+    color: #6D6D6D;
+}
+.testimonials-customer-name{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+/* ------------------------------------------------------------CONTACT US--------------------------------------------------------- */
+.contact-us{
+    position: relative;
+}
+.contact-us-leaf img{
+    position: absolute;
+    width: 320px;
+    left: -78px;
+    bottom: 80px;
+}
+.contactus-left-content-secondary-heading{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6D6D6D;
+}
+.contactus-left-content-paragraph{
+    font-weight: 500;
+}
+.horizontal-line-sticker{
+    width: 60px;
+    height: 10px;
+}
+.contactus-form-style{
+    font-weight: 600;
+    line-height: 28px;
+    color: #6D6D6D;
+}
+.content-label{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6D6D6D;
+}
+.contactus-button{
+    width: 90px;
+}
+.form-control{
+    border: none;
+}
+/* ------------------------------------------------------------FOOTER---------------------------------------------------------- */
+.footer-main-heading{
+    line-height: 40px;
+}
+.footer-top-content-heading{
+    line-height: 40px;
+}
+.footer-top-content-paragraph{
+    line-height: 28px;
+    color: #6D6D6D;
+}
+.footer-top-content-paragraph span{
+    font-weight: 700;
+}
+.footer-middle-content-left-button{
+    border: none;
+    background-color: #F5F5F5;
+}
+.footer-right-button{
+    width: 90px;
+}
+.footer-input{
+    border: none;
+}
+.footer-terms{
+    color: #6D6D6D;
+}
