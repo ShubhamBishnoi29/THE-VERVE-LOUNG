@@ -113,6 +113,7 @@ body{
     position: absolute;
     max-width: 200px;
     width: 100%;
+    z-index: -1;
 }
 .left-leaf img{
     top: -27px;
@@ -204,7 +205,13 @@ body{
     line-height: 26px;
     font-weight: 700;
 }
-
+.slider-size{
+    width:17px;
+    height:12px;
+}
+.slider {
+    --swiper-navigation-size: 0px;
+}
 /* ------------------------------------------------------------CONTACT US--------------------------------------------------------- */
 .contact-us{
     position: relative;
@@ -214,6 +221,7 @@ body{
     width: 320px;
     left: -78px;
     bottom: 80px;
+    z-index: -1;
 }
 .contactus-left-content-secondary-heading{
     font-weight: 700;
@@ -272,3 +280,222 @@ body{
 .footer-terms{
     color: #6D6D6D;
 }
+
+/*------------------------------------------------ MEDIA------ QUERY -------------------------------------------------------*/
+
+@media only screen and (min-width:320px) and (max-width: 767px) {
+    .container{
+        max-width: 100%;
+        width: 100%;
+    }
+    .section {
+        padding: 30px 15px;
+    }
+    .h1{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .primary-button{
+        width: 101px;
+        height: 27px;
+    }
+    /* --------------------LOGO------------------- */
+    .logo{
+        max-width: 90px;
+        width: 100%;
+    }
+    /* ----------------------BANNER--------------------- */
+    .banner-left-content{
+        text-align: center;
+    }
+    .banner-h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .banner-p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .banner-right-content{
+        margin-top: 30px;
+    }
+    .banner-sticky-stikker{
+        display: none;
+    }
+    /* -----------------------SERVICES---------------------- */
+    .section-heading-services{
+        margin-top: 20px;
+    }
+    .section-paragraph-services{
+        margin-top: 15px;
+    }
+    .services-image{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .services-name{
+        margin-top: 10px;
+    }
+    .services-button{
+        margin-top: 22px;
+    }
+
+    /* --------------------ABOUT US------------------ */
+    .aboutus-left-heading{  
+        font-size: 35px
+    }
+    .about-us-left-content{
+        text-align: center;
+    }
+    .aboutus-left-paragraph{
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 20px;
+    }
+    .aboutus-right-content{
+        text-align: center;
+        margin-top: -45px;
+    }
+    .aboutus-right-paragrabh{
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .aboutus-button{
+        width: 104px;
+        margin-top: 20px;
+    }
+
+    /* -------------------------GIFT CARD----------------- */
+    .gift-card-left-content{
+        text-align: center;
+    }
+    .giftcard-left-content-heading{
+        font-size: 28px;
+    }
+    .giftcard-left-content-paragraph{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .giftcard-right-content-sticker{
+        margin-top: 50px;
+    }
+    .giftcard-left-content-button{
+        margin-top: 10px;
+    }
+
+    /* -----------------------TESTIMONIALS------------------ */
+    .testimonials-heading{
+        margin-top: 20px;
+        font-size: 28px;
+    }
+    .testimonials-customer-review {
+        font-size: 15px;
+    }
+    .swiper-container-cube .swiper-slide {
+        margin-top: -10px;
+    }
+
+    /* ------------------------CONTACT US-------------------- */
+    .contactus-left-content{
+        text-align: center;
+    }
+    .contactus-left-content-heading{
+        font-size: 28px;
+    }
+    .contactus-left-content-paragraph{
+        font-size: 14px;
+    }
+    .contactus-right-content{
+        margin-top: 30px;
+    }
+    .contactus-button{
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px !important;
+    }
+
+    /* ----------------------------FOOTER--------------------- */
+    .footer-space{
+        margin-top: 20px;
+    }
+    .footer-main-heading{
+        font-size: 30px;
+    }
+    .footer-middle-content-first-heading{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .footer-middle-content-last-heading{
+        text-align: center;
+    }
+    .footer-input{
+        margin-top: 25px;
+    }
+    .footer-button{
+        width: 121px;
+        margin-top: 20px;
+    }
+    .footer-secondary-content{
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .footer-middle-content-left-button {
+        margin-top: 10px;
+    }
+    .tags{
+        margin-top: 10px;
+    }
+    .footer-secondary-heading{
+        margin-top: 30px;
+    }
+    .footer-middle-content-last-heading{
+        margin-top: 50px;
+    }
+    .footer-right-button{
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+    }
+    .footer-terms{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .footer-terms-last{
+        text-align: center !important;
+        margin-top: -5px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .logo{
+        max-width: 90px;
+        width: 100%;
+    }
+    .section {
+        padding: 30px 15px;
+    }
+    
+
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------  */
+
+@media only screen and (min-width:1025px) and (max-width: 1299px) {
+    .logo{
+        max-width: 90px;
+        width: 100%;
+    }
+    .section {
+        padding: 30px 15px;
+    }
+}
+
+
+
